@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDeviceIdentity", "CreateDeviceIdentity\CreateDeviceIdentity.csproj", "{31155958-0A05-4B17-BE3B-6E3345460B59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDeviceToCloudMessages", "ReadDeviceToCloudMessages\ReadDeviceToCloudMessages.csproj", "{5C39AC8E-4C3B-41C3-B6A8-CA08CF787D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulatedDevice", "SimulatedDevice\SimulatedDevice.csproj", "{CBC9C605-A3D4-4974-A13E-E05FF10AFBE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,19 @@ Global
 		{31155958-0A05-4B17-BE3B-6E3345460B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31155958-0A05-4B17-BE3B-6E3345460B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31155958-0A05-4B17-BE3B-6E3345460B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C39AC8E-4C3B-41C3-B6A8-CA08CF787D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C39AC8E-4C3B-41C3-B6A8-CA08CF787D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C39AC8E-4C3B-41C3-B6A8-CA08CF787D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C39AC8E-4C3B-41C3-B6A8-CA08CF787D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC9C605-A3D4-4974-A13E-E05FF10AFBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC9C605-A3D4-4974-A13E-E05FF10AFBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC9C605-A3D4-4974-A13E-E05FF10AFBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC9C605-A3D4-4974-A13E-E05FF10AFBE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
 	EndGlobalSection
 EndGlobal
